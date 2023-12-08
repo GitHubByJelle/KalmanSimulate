@@ -9,11 +9,6 @@ Mobile Robot Simulator in which the robot moves in an
 environment with landmarks. The robot has no collision with the walls.
 
 """
-
-import sys
-
-sys.path.insert(0, '..')
-
 from Simulation.simulation import simulate
 from Simulation.simulation import simulate_trajectory
 from Robot.obstacle import Obstacle
